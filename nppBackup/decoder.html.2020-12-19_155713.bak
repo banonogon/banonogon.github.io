@@ -6,8 +6,8 @@
 <p>Please select symbol and enter 4-digit code:</p>
 <form>
 	<select id="cars" name="cars">
-		<option value="square"><img src="square.png" alt="square"></option>
-		<option value="circle"><img src="circle.png" alt="circle"></option>
+		<option value="square">Volvo</option>
+		<option value="circle">Saab</option>
 	</select>
     <br>
     <input type="text" name="code">

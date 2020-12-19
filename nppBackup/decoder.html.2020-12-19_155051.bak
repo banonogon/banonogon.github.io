@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<a href="index.html">Return to main page</a>
+<h1>Voicemails:</h1>
+<p>FROM: [REDACTED]</p>
+<p>TIME: [REDACTED]</p>
+
+<audio controls>
+  <source src="clue.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>

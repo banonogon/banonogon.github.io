@@ -5,13 +5,21 @@
 <h1>Decoder</h1>
 <p>Please select symbol and enter 4-digit code:</p>
 <form>
-	<select id="cars" name="cars">
-		<option style="background-image:url(square.png);">square</option>
-		<option style="background-image:url(circle.png);">circle</option>
+	<select id="symbol_select" name="Symbol">
+		<option value="square">Red Square</option>
+		<option value="circle">Blue Circle</option>
 	</select>
     <br>
     <input type="text" name="code">
 </form>
+<button type="button" onclick="submit()">Submit</button>
+<p id = "msg"></p>
 
 </body>
+<script>
+function submit(){
+	var e = document.getElementById("symbol_select");
+	var strSymbol = e.value;
+	document.getElementById("msg").innerHTML = e.value;
+</script>
 </html>

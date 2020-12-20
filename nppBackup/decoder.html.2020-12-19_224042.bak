@@ -15,12 +15,11 @@
 <button type="button" onclick="submit()">Submit</button>
 <p id = "msg"></p>
 
+</body>
 <script>
 function submit(){
 	var e = document.getElementById("symbol_select");
 	var strSymbol = e.value;
 	document.getElementById("msg").innerHTML = e.value;
 </script>
-</body>
-
 </html>

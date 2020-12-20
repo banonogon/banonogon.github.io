@@ -10,7 +10,7 @@
 		<option value="circle">Blue Circle</option>
 	</select>
     <br>
-    <input type="text" name="code" id="code">
+    <input type="text" name="code">
 </form>
 <button type="button" onclick="submit()">Submit</button>
 <p id = "msg">initial</p>
@@ -20,9 +20,7 @@
 function submit(){
 	var e = document.getElementById("symbol_select");
 	var strSymbol = e.value;
-	var e2 = document.getElementById("code");
-	var code = e2.value;
-	document.getElementById("msg").innerHTML = strSymbol + "<br>"+ code;
+	document.getElementById("msg").innerHTML = e.value;
 }
 </script>
 </body>

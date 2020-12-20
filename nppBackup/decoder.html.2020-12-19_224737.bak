@@ -22,7 +22,7 @@ function submit(){
 	var strSymbol = e.value;
 	var e2 = document.getElementById("code");
 	var code = e2.value;
-	document.getElementById("msg").innerHTML = strSymbol + "<br>"+ code;
+	document.getElementById("msg").innerHTML = strSymbol + code;
 }
 </script>
 </body>

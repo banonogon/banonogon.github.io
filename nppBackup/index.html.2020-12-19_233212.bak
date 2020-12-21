@@ -3,9 +3,8 @@
 <body>
 
 <h1>S.A.N.T.A Database Access</h1>
-
+<h2>Welcome, Agent Brewer<h2>
 <p>CLEARANCE LEVEL: RUDOLPH</p>
-<p>Welcome, Agent Brewer</p>
 <a href="voicemail.html">Check Voicemail</a>
 <br>
 <a href="decoder.html">Decrypt Message</a>

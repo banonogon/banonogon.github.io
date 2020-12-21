@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Super Secret Spy Database</h1>
+<h2>Login Access Granted<h2>
+<a href="voicemail.html">Check Voicemail</a>
+<br>
+<a href="decoder.html">Input Code</a>
+
+</body>
+</html>

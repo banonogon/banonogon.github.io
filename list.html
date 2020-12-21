@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<a href="index.html">Return to main page</a>
+<h1>Naughty and Nice List</h1>
+<p>Please enter name to check:</p>
+<form>
+    <input type="text" name="name" id="name">
+</form>
+<button type="button" onclick="submit()">Submit</button>
+<p id = "msg"></p>
+
+<script>
+function submit(){
+	document.getElementById("msg").innerHTML = "ERROR: PRIMARY DATA SOURCE MISSING OR CORRUPTED"
+}
+</script>
+</body>
+
+</html>

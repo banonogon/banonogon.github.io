@@ -2,7 +2,7 @@
 <html>
 <body>
 <a href="index.html">Return to main page</a>
-<h1>Decrypt Message</h1>
+<h1>Coded Messages</h1>
 <p>Please select symbol and enter 4-digit code to receive message:</p>
 <form>
 	<select id="symbol_select" name="Symbol">
@@ -13,7 +13,7 @@
     <input type="text" name="code" id="code">
 </form>
 <button type="button" onclick="submit()">Submit</button>
-<p id = "msg"><p>
+<p id = "msg">initial</p>
 
 <script>
 //document.getElementById("msg").innerHTML = "sfsd";

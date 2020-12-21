@@ -13,7 +13,7 @@
     <input type="text" name="code" id="code">
 </form>
 <button type="button" onclick="submit()">Submit</button>
-<p id = "msg"><p>
+<p id = "msg">initial</p>
 
 <script>
 //document.getElementById("msg").innerHTML = "sfsd";

@@ -3,7 +3,7 @@
 <body>
 <a href="index.html">Return to main page</a>
 <h1>Decrypt Message</h1>
-<p>Please select symbol and enter<br>4-digit code to receive message:</p>
+<p>Please select symbol and enter 4-digit code to receive message:</p>
 <form>
 	<select id="symbol_select" name="Symbol">
 		<option value="triangle">Green Triangle</option>

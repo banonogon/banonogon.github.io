@@ -45,7 +45,7 @@ function submit(){
 		document.getElementById("msg").innerHTML = "DECRYPTED MESSAGE:<br>Jordan got the NIKE deal,<br>As probably he should,<br>But did you know the next contender<br>Was the devout companion of Robin Hood?<br>If he were the one to win the fame,<br>What would the shoes have then been named?";
 	}
 	else if(symbol == "check" && code == "5773"){
-		document.getElementById("msg").innerHTML = "Congratulations! That last code you entered unlocked the location of the Naughty and Nice Lists! We will go ahead and reintegrate them into the database, but it may take some time. For now, we have sent some further training opportunities to your address. Please complete them at your earliest convenience. Good job, Agent.";
+		document.getElementById("msg").innerHTML = "Congratulations! That last code you entered unlocked the location of the Naughty and Nice Lists! We will go ahead and reintegrate them into the database. For now, we have sent some further training opportunities to your address. Please complete them at your earliest convenience. Good job, Agent.";
 	}
 	else{
 		document.getElementById("msg").innerHTML = "Error: decryption failed";

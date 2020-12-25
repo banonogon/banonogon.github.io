@@ -15,7 +15,19 @@ function submit(){
 	var allcookies = document.cookie;
 	var good = false;
 	cookiearray = allcookies.split(';');
-	document.getElementById("msg").innerHTML = "ERROR: PRIMARY DATA SOURCE MISSING OR CORRUPTED"
+	for(var i=0; i<cookiearray.length; i++) {
+        name = cookiearray[i].split('=')[0];
+        value = cookiearray[i].split('=')[1];
+		if(name == "santa_completed" && value == "yes"){
+			good = true
+		}
+    }
+	if(!good){
+		document.getElementById("msg").innerHTML = "ERROR: PRIMARY DATA SOURCE MISSING OR CORRUPTED"
+	}
+	else{
+		document.getElementById("msg").innerHTML = "NICE"
+	}
 }
 </script>
 </body>

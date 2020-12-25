@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<a href="index.html">Return to main page</a>
+<h1>Naughty and Nice List</h1>
+<p>Please enter name to check:</p>
+<form>
+    <input type="text" name="name" id="name">
+</form>
+<button type="button" onclick="submit()">Submit</button>
+<p id = "msg"></p>
+
+<script>
+function submit(){
+	var allcookies = document.cookie;
+	var good = false;
+	cookiearray = allcookies.split(';');
+	for(var i=0; i<cookiearray.length; i++) {
+        name = cookiearray[i].split('=')[0];
+        value = cookiearray[i].split('=')[1];
+		document.getElementById("msg").innerHTML = name+value;
+		if(name == "santa_completed" && value == "yes"){
+			good = true
+		}
+    }
+	if(!good){
+		//document.getElementById("msg").innerHTML = "ERROR: PRIMARY DATA SOURCE MISSING OR CORRUPTED"
+	}
+	else{
+		//document.getElementById("msg").innerHTML = "NICE"
+	}
+}
+</script>
+</body>
+
+</html>

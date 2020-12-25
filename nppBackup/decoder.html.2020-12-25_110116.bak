@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<a href="index.html">Return to main page</a>
+<h1>Decrypt Message</h1>
+<p>Please select symbol and enter 4-digit code to receive message:</p>
+<form>
+	<select id="symbol_select" name="Symbol">
+		<option value="square">Red Square</option>
+		<option value="circle">Blue Circle</option>
+	</select>
+    <br>
+    <input type="text" name="code" id="code">
+</form>
+<button type="button" onclick="submit()">Submit</button>
+<p id = "msg"><p>
+
+<script>
+//document.getElementById("msg").innerHTML = "sfsd";
+function submit(){
+	var e = document.getElementById("symbol_select");
+	var strSymbol = e.value;
+	var e2 = document.getElementById("code");
+	var code = e2.value;
+	document.getElementById("msg").innerHTML = strSymbol + "<br>"+ code;
+}
+</script>
+</body>
+
+</html>

@@ -38,14 +38,14 @@ function submit(){
 	else if(symbol == "square" && code == "4581"){
 		document.getElementById("msg").innerHTML = "DECRYPTED MESSAGE:<br>Searching the net, finding some flicks,<br>Santa always checks twice another list.";
 	}
-	else if(symbol == "star" && (code == "4248" || code == "2448" || code == "4482" || code == "2484" || code == "4842" || code == "4824")){
+	else if(symbol == "star" && (code == "4248" || code == "4248" || code == "4482" || code == "2484" || code == "4842" || code == "4824")){
 		document.getElementById("msg").innerHTML = "DECRYPTED MESSAGE:<br>Eat them fast, while they float.<br>They are not large, and they are not oat.";
 	}
 	else if(symbol == "circle" && code == "3151"){
 		document.getElementById("msg").innerHTML = "DECRYPTED MESSAGE:<br>Jordan got the NIKE deal,<br>As probably he should,<br>But did you know the next contender<br>Was the devout companion of Robin Hood?<br>If he were the one to win the fame,<br>What would the shoes have then been named?";
 	}
 	else if(symbol == "check" && code == "5773"){
-		document.getElementById("msg").innerHTML = "Congratulations! That last code you entered unlocked the location of the Naughty and Nice Lists! We will go ahead and reintegrate them into the database, but it may take some time. For now, we have sent some further training opportunities to your address. Please complete them at your earliest convenience. Good job, Agent.";
+		document.getElementById("msg").innerHTML = "Congratulations! That last code you entered unlocked the location of the Naughty and Nice Lists! We will go ahead and reintegrate them into the database. For now, we have sent some further training opportunities to your address. Please complete them at your earliest convenience. Good job, Agent.";
 	}
 	else{
 		document.getElementById("msg").innerHTML = "Error: decryption failed";
